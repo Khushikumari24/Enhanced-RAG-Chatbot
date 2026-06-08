@@ -1,0 +1,26 @@
+# Virtual environments
+venv/
+env/
+rag_env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Hugging Face & Model caches
+.cache/
+*.bin
+*.safetensors
+*.pt
+
+# Vector store and local data (optional: remove if you want to share the index)
+rag_vectorstore/
+chat_history.json
+sample_transformers.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
